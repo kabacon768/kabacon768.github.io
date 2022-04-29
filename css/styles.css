@@ -454,7 +454,7 @@ h5 {
     .wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 100vh 190vh 20vh;
+        grid-template-rows: 130vh 260vh 20vh;
     }
 
     .project-1 {
