@@ -44,7 +44,11 @@ h1{
 .two{
     background-color: rgb(255, 255, 255);
     grid-column: 2/3;
-    margin: 3%;
+    margin: 3%;    
+}
+
+.center {
+    padding: 2%;
 }
 
 .two:hover {
@@ -231,6 +235,7 @@ a:link {
 
 
 h5 {
+    font-family: 'Inconsolata', monospace;
     font-size: 1rem;
     color: black;
     margin: 0%;
@@ -242,7 +247,7 @@ h5 {
 .grid-column-layout2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20vh 10vh 10vh 70vh 120vh 40vh 20vh;
+    grid-template-rows: 20vh 10vh 10vh 90vh 165vh 60vh 20vh;
     }
 
     h1{
@@ -300,6 +305,12 @@ h5 {
         background-color: rgb(255, 255, 255);
         grid-column: 4/5;
         margin: 3%;
+    }
+
+    .four-resume:hover {
+        background-color:rgb(159, 147, 147);
+        transition: background-color 3s;
+        cursor: pointer;
     }
 
     .five-resume {
@@ -553,7 +564,7 @@ grid-template-rows: 20vh 10vh 10vh 60vh 10vh 40vh 20vh;
 .grid-column-layout2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20vh 10vh 10vh 65vh 100vh 40vh 20vh;
+    grid-template-rows: 20vh 10vh 10vh 85vh 140vh 50vh 20vh;
     }
 
     .five-resume {
